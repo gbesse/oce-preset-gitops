@@ -1,0 +1,16 @@
+{
+  "namespaceId": "ns_123e4567-e89b-42d3-a456-426614174000",
+  "name": "Sales assistant / Assistant commercial / Asistente comercial",
+  "template": {
+    "variables": {
+      "name": {
+        "type": "string",
+        "description": "Nom / Name / Nombre"
+      }
+    },
+    "agent": {
+      "name": "{{ vars.name }}",
+      "executionMode": "embedded"
+    }
+  }
+}

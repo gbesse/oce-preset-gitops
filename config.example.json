@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://occ.example.com",
+  "keyFile": "/secure/path/occ-service.key",
+  "desiredDir": "./presets"
+}
